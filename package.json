@@ -1,0 +1,29 @@
+{
+  "name": "react-native-general-storage",
+  "version": "1.0.0",
+  "private": false,
+  "description": "The wrapper of AsyncStorage to support multi-level key.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js AsyncStorage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaoxiaosong/react-native-general-storage"
+  },
+  "keywords": [
+    "React-Native",
+    "AsyncStorage"
+  ],
+  "author": "Xiaosong Gao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaoxiaosong/react-native-general-storage/issues",
+    "email": "gaoxiaosong06@gmail.com"
+  },
+  "homepage": "https://github.com/gaoxiaosong/react-native-general-storage#readme",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^4.17.0"
+  }
+}
