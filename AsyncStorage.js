@@ -6,10 +6,17 @@ let defaultPrefix = null;
 export let defaultSeperator = '$';
 
 export function setPrefix(key, value, isDefault = false) {
-    const prefix = Array.isArray(value) ? value : [value];
-    prefixs[key] = prefix;
-    if (isDefault) {
-        defaultPrefix = key;
+    if (value !== null && value !== undefined) {
+        const prefix = Array.isArray(value) ? value : [value];
+        prefixs[key] = prefix;
+        if (isDefault) {
+            defaultPrefix = key;
+        }
+    } else {
+        delete prefixs[key];
+        if (defaultPrefix === key) {
+            defaultPrefix = null;
+        }
     }
 }
 
