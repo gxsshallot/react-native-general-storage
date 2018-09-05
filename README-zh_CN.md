@@ -1,7 +1,5 @@
 # react-native-general-storage
 
-[![Build Status](https://travis-ci.org/gaoxiaosong/react-native-general-storage.svg?branch=master)](https://travis-ci.org/gaoxiaosong/react-native-general-storage)
-
 这是`AsyncStorage`的封装，用以支持多级键列表以及公共前缀。
 
 ## 安装

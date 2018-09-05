@@ -1,8 +1,6 @@
 # react-native-general-storage
 
-[![Build Status](https://travis-ci.org/gaoxiaosong/react-native-general-storage.svg?branch=master)](https://travis-ci.org/gaoxiaosong/react-native-general-storage)
-
-[Chinese README](/README-zh_CN.md)
+[Chinese README](README-zh_CN.md)
 
 It is the wrapper of `AsyncStorage` to support multi-level key and key prefix.
 
