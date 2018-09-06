@@ -96,3 +96,7 @@ storageKey = [...prefix, ...keys].join(seperator);
 它们都是同时操作一组拥有同样'前缀'的键.
 
 如果一个键是`['App', 'UserInfo']`, 另一个是`['App', 'UserSetting']`, 并且二者都是`'userPart'`前缀. 当`clear(['App'], userPart)`调用时, 它们都会被删除. 或者`getKeys(['App'], userPart)`调用时, 它们都会在Promise中被返回.
+
+## 参考
+
+请参照这个仓库的说明: [react-native-items](https://github.com/gaoxiaosong/react-native-items/blob/master/README-zh_CN.md).
