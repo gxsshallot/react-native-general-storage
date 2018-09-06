@@ -98,3 +98,7 @@ Parameters:
 They are manipulate a set of keys, which has same prefix.
 
 If one key is `['App', 'UserInfo']` and another is `['App', 'UserSetting']`, and both is `'userPart'` prefix. When `clear(['App'], userPart)`, they will be clear. Or `getKeys(['App'], userPart)`, they will be returned in promise.
+
+## Reference
+
+Please see this repository: [react-native-items](https://github.com/gaoxiaosong/react-native-items).
