@@ -1,15 +1,15 @@
 {
   "name": "react-native-general-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "The wrapper of AsyncStorage to support multi-level key and key prefix.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaoxiaosong/react-native-general-storage"
+    "url": "https://github.com/gaoxiaosong/react-native-general-storage.git"
   },
   "keywords": [
-    "React-Native",
+    "react native",
     "AsyncStorage"
   ],
   "author": "Xiaosong Gao",

@@ -1,6 +1,6 @@
 # react-native-general-storage
 
-[Chinese README](README-zh_CN.md)
+[![npm version](https://img.shields.io/npm/v/react-native-general-storage.svg?style=flat)](https://www.npmjs.com/package/react-native-general-storage)
 
 It is the wrapper of `AsyncStorage` to support multi-level key and key prefix.
 
@@ -98,7 +98,3 @@ Parameters:
 They are manipulate a set of keys, which has same prefix.
 
 If one key is `['App', 'UserInfo']` and another is `['App', 'UserSetting']`, and both is `'userPart'` prefix. When `clear(['App'], userPart)`, they will be clear. Or `getKeys(['App'], userPart)`, they will be returned in promise.
-
-## Reference
-
-Please see this repository: [react-native-items](https://github.com/gaoxiaosong/react-native-items).
