@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/react-native-general-storage.svg?style=flat)](https://www.npmjs.com/package/react-native-general-storage)
 
+[中文说明](https://www.jianshu.com/p/43c2f39992b4)
+
 It is the wrapper of `AsyncStorage` to support multi-level key and key prefix.
 
 ## Install
