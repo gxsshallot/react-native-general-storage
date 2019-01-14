@@ -83,12 +83,15 @@ storageKey = [...prefix, ...keys].join(seperator);
 
 ### Interface
 
-* set: `(keys, content, prefix = undefined) => Promise<void>`
-* get: `(keys, prefix = undefined) => Promise<object>`
-* remove: `(keys, prefix = undefined) => Promise<void>`
-* merge: `(keys, content, prefix = undefined) => Promise<void>`
-* clear: `(keys, prefix = undefined) => Promise<void>`
-* getKeys: `(keys, prefix = undefined) => Promise<{string: object}>`
+* set: `(keys, content, prefix) => Promise<void>`
+* get: `(keys, prefix) => Promise<object>`
+* remove: `(keys, prefix) => Promise<void>`
+* merge: `(keys, content, prefix) => Promise<void>`
+* clear: `(keys, prefix) => Promise<void>`
+* getKeys: `(keys, prefix) => Promise<{string: object}>`
+* multiGet: `(keys, prefix) => Promise<object[]>`
+* multiSet: `(keys, values, prefix) => Promise<void>`
+* multiRemove: `(keys, prefix) => Promise<void>`
 
 Parameters:
 
