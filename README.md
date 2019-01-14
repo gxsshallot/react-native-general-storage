@@ -1,6 +1,7 @@
 # react-native-general-storage
 
 [![npm version](https://img.shields.io/npm/v/react-native-general-storage.svg?style=flat)](https://www.npmjs.com/package/react-native-general-storage)
+[![Build Status](https://travis-ci.org/gaoxiaosong/react-native-general-storage.svg?branch=master)](https://travis-ci.org/gaoxiaosong/react-native-general-storage)
 
 [中文说明](https://www.jianshu.com/p/43c2f39992b4)
 
