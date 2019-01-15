@@ -59,18 +59,18 @@ export function getKeys(keys, prefix = undefined) {
             const filteredKeys = result.filter(item => item.startsWith(keyPrefix));
             return AsyncStorage.multiGet(filteredKeys);
         })
-        .then(result => result.map(i => i[1]));
+        .then(result => result.map(i => JSON.parse(i[1])));
 }
 
 export function multiGet(keys, prefix = undefined) {
     const realKeys = keys.map(key => generateKey(key, prefix));
     return AsyncStorage.multiGet(realKeys)
-        .then(result => result.map(i => i[1]));
+        .then(result => result.map(i => JSON.parse(i[1])));
 }
 
 export function multiSet(keys, values, prefix = undefined) {
     const keyValuePairs = keys.map((key, index) => {
-        return [generateKey(key, prefix), values[index]];
+        return [generateKey(key, prefix), JSON.stringify(values[index])];
     });
     return AsyncStorage.multiSet(keyValuePairs);
 }
