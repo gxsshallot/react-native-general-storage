@@ -18,5 +18,8 @@
     "url": "https://github.com/gaoxiaosong/react-native-general-storage/issues",
     "email": "gaoxiaosong06@gmail.com"
   },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1"
+  },
   "homepage": "https://github.com/gaoxiaosong/react-native-general-storage#readme"
 }
