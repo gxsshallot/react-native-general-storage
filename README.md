@@ -22,7 +22,7 @@ npm install --save react-native-general-storage
 ```
 ## note
 
-  `import {storage} from 'react-native'` will deprecated in RN Higher version. it move to [react-native-community/async-storage](https://github.com/react-native-community/async-storage)
+  `import {AsyncStorage} from 'react-native'` will deprecated in RN Higher version. it move to [react-native-community/async-storage](https://github.com/react-native-community/async-storage)
   
    install dependencies see `react-native-community/async-storage` detail
    
